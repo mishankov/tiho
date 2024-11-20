@@ -1,0 +1,48 @@
+{
+  "name": "tiho blue",
+  "colors": {
+    "editor.background": "#141B1F",
+    "editor.foreground": "#85A0AD",
+    "activityBar.background": "#141B1F",
+    "activityBarBadge.background": "#141B1F",
+    "sideBar.background": "#141B1F",
+    "sideBarTitle.foreground": "#85A0AD",
+    "tab.activeBackground": "#1F292E",
+    "tab.inactiveBackground": "#141B1F",
+    "statusBar.background": "#141B1F",
+    "panel.background": "#141B1F",
+    "menubar.selectionBackground": "#141B1F",
+    "editorGroupHeader.tabsBackground": "#141B1F",
+    "titleBar.activeBackground": "#141B1F",
+    "editorLink.activeForeground": "#85A0AD",
+    "dropdown.background": "#141B1F",
+    "editorSuggestWidget.background": "#141B1F",
+    "editorSuggestWidget.border": "#141B1F",
+    "editorSuggestWidget.selectedBackground": "#1F292E",
+    "editorSuggestWidget.highlightForeground": "#E0E7EB",
+    "editorSuggestWidget.focusHighlightForeground": "#E0E7EB",
+    "editorSuggestWidget.selectedForeground": "#85A0AD",
+    "editorSuggestWidget.selectedIconForeground": "#E0E7EB"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#526D7A"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#E0E7EB"
+      }
+    }
+  ]
+}

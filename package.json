@@ -1,0 +1,47 @@
+{
+  "name": "tiho",
+  "displayName": "tiho",
+  "description": "dim color theme to focus on code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "tiho gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tiho-gray-color-theme.json"
+      }, 
+      {
+        "label": "tiho green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tiho-green-color-theme.json"
+      }, 
+      {
+        "label": "tiho blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tiho-blue-color-theme.json"
+      }, 
+      {
+        "label": "tiho purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tiho-purple-color-theme.json"
+      }, 
+      {
+        "label": "tiho brown",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tiho-brown-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "wg": "node --watch ./scripts/generate.mjs"
+  },
+  "dependencies": {
+    "color-convert": "^2.0.1"
+  }
+}
