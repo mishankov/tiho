@@ -42,7 +42,8 @@
     {
       "name": "Keyword",
       "scope": [
-        "keyword"
+        "keyword",
+        "entity.name.type"
       ],
       "settings": {
         "foreground": "#EBE6E0"

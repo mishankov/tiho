@@ -98,7 +98,8 @@ themesData.forEach(theme => {
       {
         "name": "Keyword",
         "scope": [
-          "keyword"
+          "keyword", 
+          "entity.name.type",
         ],
         "settings": {
           "foreground": theme.colors.text.light
