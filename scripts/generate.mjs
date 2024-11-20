@@ -12,7 +12,7 @@ import convert from 'color-convert'
 const color = (hue, saturation, lightness) => `#${convert.hsl.hex(hue, saturation, lightness)}`
 
 
-const GRAY_HUE = 143
+const GRAY_HUE = 0
 const GREEN_HUE = 143
 const BLUE_HUE = 200
 const PURPLE_HUE = 300
