@@ -1,28 +1,28 @@
 {
   "name": "tiho gray",
   "colors": {
-    "editor.background": "#1F1414",
-    "editor.foreground": "#AD8585",
-    "activityBar.background": "#1F1414",
-    "activityBarBadge.background": "#1F1414",
-    "sideBar.background": "#1F1414",
-    "sideBarTitle.foreground": "#AD8585",
-    "tab.activeBackground": "#2E1F1F",
-    "tab.inactiveBackground": "#1F1414",
-    "statusBar.background": "#1F1414",
-    "panel.background": "#1F1414",
-    "menubar.selectionBackground": "#1F1414",
-    "editorGroupHeader.tabsBackground": "#1F1414",
-    "titleBar.activeBackground": "#1F1414",
-    "editorLink.activeForeground": "#AD8585",
-    "dropdown.background": "#1F1414",
-    "editorSuggestWidget.background": "#1F1414",
-    "editorSuggestWidget.border": "#1F1414",
-    "editorSuggestWidget.selectedBackground": "#2E1F1F",
-    "editorSuggestWidget.highlightForeground": "#EBE0E0",
-    "editorSuggestWidget.focusHighlightForeground": "#EBE0E0",
-    "editorSuggestWidget.selectedForeground": "#AD8585",
-    "editorSuggestWidget.selectedIconForeground": "#EBE0E0"
+    "editor.background": "#1A1A1A",
+    "editor.foreground": "#999999",
+    "activityBar.background": "#1A1A1A",
+    "activityBarBadge.background": "#1A1A1A",
+    "sideBar.background": "#1A1A1A",
+    "sideBarTitle.foreground": "#999999",
+    "tab.activeBackground": "#262626",
+    "tab.inactiveBackground": "#1A1A1A",
+    "statusBar.background": "#1A1A1A",
+    "panel.background": "#1A1A1A",
+    "menubar.selectionBackground": "#1A1A1A",
+    "editorGroupHeader.tabsBackground": "#1A1A1A",
+    "titleBar.activeBackground": "#1A1A1A",
+    "editorLink.activeForeground": "#999999",
+    "dropdown.background": "#1A1A1A",
+    "editorSuggestWidget.background": "#1A1A1A",
+    "editorSuggestWidget.border": "#1A1A1A",
+    "editorSuggestWidget.selectedBackground": "#262626",
+    "editorSuggestWidget.highlightForeground": "#E6E6E6",
+    "editorSuggestWidget.focusHighlightForeground": "#E6E6E6",
+    "editorSuggestWidget.selectedForeground": "#999999",
+    "editorSuggestWidget.selectedIconForeground": "#E6E6E6"
   },
   "tokenColors": [
     {
@@ -32,7 +32,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#7A5252"
+        "foreground": "#666666"
       }
     },
     {
@@ -41,7 +41,7 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#EBE0E0"
+        "foreground": "#E6E6E6"
       }
     }
   ]

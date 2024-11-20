@@ -21,11 +21,11 @@ const BROWN_HUE = 30
 const SATURATION = 20
 
 const themes = [
-  { color: 'gray', hue: GRAY_HUE },
-  { color: 'green', hue: GREEN_HUE },
-  { color: 'blue', hue: BLUE_HUE },
-  { color: 'purple', hue: PURPLE_HUE },
-  { color: 'brown', hue: BROWN_HUE }
+  { color: 'gray', hue: GRAY_HUE, saturation: 0 },
+  { color: 'green', hue: GREEN_HUE, saturation: SATURATION },
+  { color: 'blue', hue: BLUE_HUE, saturation: SATURATION },
+  { color: 'purple', hue: PURPLE_HUE, saturation: SATURATION },
+  { color: 'brown', hue: BROWN_HUE, saturation: SATURATION },
 ]
 
 const themesData = themes.map(theme => ({
@@ -33,13 +33,13 @@ const themesData = themes.map(theme => ({
   fileName: `tiho-${theme.color}-color-theme.json`,
   colors: {
     background: {
-      dark: color(theme.hue, SATURATION, 10),
-      light: color(theme.hue, SATURATION, 15),
+      dark: color(theme.hue, theme.saturation, 10),
+      light: color(theme.hue, theme.saturation, 15),
     },
     text: {
-      normal: color(theme.hue, SATURATION, 60),
-      light: color(theme.hue, SATURATION, 90),
-      dark: color(theme.hue, SATURATION, 40)
+      normal: color(theme.hue, theme.saturation, 60),
+      light: color(theme.hue, theme.saturation, 90),
+      dark: color(theme.hue, theme.saturation, 40)
     }
   }
 }))
