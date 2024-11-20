@@ -3,6 +3,15 @@
   "colors": {
     "editor.background": "#1A1A1A",
     "editor.foreground": "#999999",
+    "editorGroupHeader.tabsBackground": "#1A1A1A",
+    "editorLink.activeForeground": "#999999",
+    "editorSuggestWidget.background": "#1A1A1A",
+    "editorSuggestWidget.border": "#1A1A1A",
+    "editorSuggestWidget.selectedBackground": "#262626",
+    "editorSuggestWidget.highlightForeground": "#E6E6E6",
+    "editorSuggestWidget.focusHighlightForeground": "#E6E6E6",
+    "editorSuggestWidget.selectedForeground": "#999999",
+    "editorSuggestWidget.selectedIconForeground": "#E6E6E6",
     "activityBar.background": "#1A1A1A",
     "activityBarBadge.background": "#1A1A1A",
     "sideBar.background": "#1A1A1A",
@@ -12,17 +21,12 @@
     "statusBar.background": "#1A1A1A",
     "panel.background": "#1A1A1A",
     "menubar.selectionBackground": "#1A1A1A",
-    "editorGroupHeader.tabsBackground": "#1A1A1A",
     "titleBar.activeBackground": "#1A1A1A",
-    "editorLink.activeForeground": "#999999",
-    "dropdown.background": "#1A1A1A",
-    "editorSuggestWidget.background": "#1A1A1A",
-    "editorSuggestWidget.border": "#1A1A1A",
-    "editorSuggestWidget.selectedBackground": "#262626",
-    "editorSuggestWidget.highlightForeground": "#E6E6E6",
-    "editorSuggestWidget.focusHighlightForeground": "#E6E6E6",
-    "editorSuggestWidget.selectedForeground": "#999999",
-    "editorSuggestWidget.selectedIconForeground": "#E6E6E6"
+    "quickInput.background": "#1A1A1A",
+    "quickInputList.focusBackground": "#262626",
+    "scrollbar.shadow": "#1A1A1A",
+    "list.hoverBackground": "#262626",
+    "dropdown.background": "#1A1A1A"
   },
   "tokenColors": [
     {

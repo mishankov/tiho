@@ -48,8 +48,22 @@ themesData.forEach(theme => {
   const actualTheme = {
     "name": theme.name,
     "colors": {
+      // editor
       "editor.background": theme.colors.background.dark,
       "editor.foreground": theme.colors.text.normal,
+      "editorGroupHeader.tabsBackground": theme.colors.background.dark,
+      "editorLink.activeForeground": theme.colors.text.normal,
+      
+      // editor suggestions
+      "editorSuggestWidget.background": theme.colors.background.dark,
+      "editorSuggestWidget.border": theme.colors.background.dark,
+      "editorSuggestWidget.selectedBackground": theme.colors.background.light,
+      "editorSuggestWidget.highlightForeground": theme.colors.text.light,
+      "editorSuggestWidget.focusHighlightForeground": theme.colors.text.light,
+      "editorSuggestWidget.selectedForeground": theme.colors.text.normal, 
+      "editorSuggestWidget.selectedIconForeground": theme.colors.text.light,
+
+      // stuff around editor
       "activityBar.background": theme.colors.background.dark, // tabs on side
       "activityBarBadge.background": theme.colors.background.dark,
       "sideBar.background": theme.colors.background.dark,
@@ -59,18 +73,16 @@ themesData.forEach(theme => {
       "statusBar.background": theme.colors.background.dark,
       "panel.background": theme.colors.background.dark,
       "menubar.selectionBackground": theme.colors.background.dark,
-      "editorGroupHeader.tabsBackground": theme.colors.background.dark,
       "titleBar.activeBackground": theme.colors.background.dark,
-      "editorLink.activeForeground": theme.colors.text.normal,
-      "dropdown.background": theme.colors.background.dark,
+      
+      // quick input
+      "quickInput.background": theme.colors.background.dark,
+      "quickInputList.focusBackground": theme.colors.background.light,
 
-      "editorSuggestWidget.background": theme.colors.background.dark,
-      "editorSuggestWidget.border": theme.colors.background.dark,
-      "editorSuggestWidget.selectedBackground": theme.colors.background.light,
-      "editorSuggestWidget.highlightForeground": theme.colors.text.light,
-      "editorSuggestWidget.focusHighlightForeground": theme.colors.text.light,
-      "editorSuggestWidget.selectedForeground": theme.colors.text.normal, 
-      "editorSuggestWidget.selectedIconForeground": theme.colors.text.light,
+      // common
+      "scrollbar.shadow": theme.colors.background.dark,
+      "list.hoverBackground": theme.colors.background.light,
+      "dropdown.background": theme.colors.background.dark,
     },
     "tokenColors": [
       {

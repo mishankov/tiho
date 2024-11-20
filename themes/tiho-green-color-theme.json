@@ -3,6 +3,15 @@
   "colors": {
     "editor.background": "#141F18",
     "editor.foreground": "#85AD94",
+    "editorGroupHeader.tabsBackground": "#141F18",
+    "editorLink.activeForeground": "#85AD94",
+    "editorSuggestWidget.background": "#141F18",
+    "editorSuggestWidget.border": "#141F18",
+    "editorSuggestWidget.selectedBackground": "#1F2E24",
+    "editorSuggestWidget.highlightForeground": "#E0EBE4",
+    "editorSuggestWidget.focusHighlightForeground": "#E0EBE4",
+    "editorSuggestWidget.selectedForeground": "#85AD94",
+    "editorSuggestWidget.selectedIconForeground": "#E0EBE4",
     "activityBar.background": "#141F18",
     "activityBarBadge.background": "#141F18",
     "sideBar.background": "#141F18",
@@ -12,17 +21,12 @@
     "statusBar.background": "#141F18",
     "panel.background": "#141F18",
     "menubar.selectionBackground": "#141F18",
-    "editorGroupHeader.tabsBackground": "#141F18",
     "titleBar.activeBackground": "#141F18",
-    "editorLink.activeForeground": "#85AD94",
-    "dropdown.background": "#141F18",
-    "editorSuggestWidget.background": "#141F18",
-    "editorSuggestWidget.border": "#141F18",
-    "editorSuggestWidget.selectedBackground": "#1F2E24",
-    "editorSuggestWidget.highlightForeground": "#E0EBE4",
-    "editorSuggestWidget.focusHighlightForeground": "#E0EBE4",
-    "editorSuggestWidget.selectedForeground": "#85AD94",
-    "editorSuggestWidget.selectedIconForeground": "#E0EBE4"
+    "quickInput.background": "#141F18",
+    "quickInputList.focusBackground": "#1F2E24",
+    "scrollbar.shadow": "#141F18",
+    "list.hoverBackground": "#1F2E24",
+    "dropdown.background": "#141F18"
   },
   "tokenColors": [
     {
