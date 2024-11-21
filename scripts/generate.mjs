@@ -53,6 +53,7 @@ themesData.forEach(theme => {
       "editor.foreground": theme.colors.text.normal,
       "editorGroupHeader.tabsBackground": theme.colors.background.dark,
       "editorLink.activeForeground": theme.colors.text.normal,
+      "editor.selectionBackground": theme.colors.background.light,
       
       // editor suggestions
       "editorSuggestWidget.background": theme.colors.background.dark,
@@ -83,6 +84,10 @@ themesData.forEach(theme => {
       "scrollbar.shadow": theme.colors.background.dark,
       "list.hoverBackground": theme.colors.background.light,
       "dropdown.background": theme.colors.background.dark,
+      "selection.background": theme.colors.background.light,
+
+      // terminal
+      "terminal.selectionBackground": theme.colors.background.light,
     },
     "tokenColors": [
       {

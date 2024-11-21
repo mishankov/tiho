@@ -5,6 +5,7 @@
     "editor.foreground": "#AD85AD",
     "editorGroupHeader.tabsBackground": "#1F141F",
     "editorLink.activeForeground": "#AD85AD",
+    "editor.selectionBackground": "#2E1F2E",
     "editorSuggestWidget.background": "#1F141F",
     "editorSuggestWidget.border": "#1F141F",
     "editorSuggestWidget.selectedBackground": "#2E1F2E",
@@ -26,7 +27,9 @@
     "quickInputList.focusBackground": "#2E1F2E",
     "scrollbar.shadow": "#1F141F",
     "list.hoverBackground": "#2E1F2E",
-    "dropdown.background": "#1F141F"
+    "dropdown.background": "#1F141F",
+    "selection.background": "#2E1F2E",
+    "terminal.selectionBackground": "#2E1F2E"
   },
   "tokenColors": [
     {
