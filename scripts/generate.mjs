@@ -69,6 +69,7 @@ themesData.forEach(theme => {
       "activityBarBadge.background": theme.colors.background.dark,
       "sideBar.background": theme.colors.background.dark,
       "sideBarTitle.foreground":  theme.colors.text.normal,
+      "sideBarSectionHeader.background": theme.colors.background.dark,
       "tab.activeBackground": theme.colors.background.light,
       "tab.inactiveBackground": theme.colors.background.dark,
       "statusBar.background": theme.colors.background.dark,
