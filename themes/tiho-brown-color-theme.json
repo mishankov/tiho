@@ -6,6 +6,7 @@
     "editorGroupHeader.tabsBackground": "#1F1A14",
     "editorLink.activeForeground": "#AD9985",
     "editor.selectionBackground": "#2E261F",
+    "editor.wordHighlightTextBackground": "#2E261F",
     "editorSuggestWidget.background": "#1F1A14",
     "editorSuggestWidget.border": "#1F1A14",
     "editorSuggestWidget.selectedBackground": "#2E261F",

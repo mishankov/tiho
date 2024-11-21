@@ -37,9 +37,9 @@ const themesData = themes.map(theme => ({
       light: color(theme.hue, theme.saturation, 15),
     },
     text: {
+      dark: color(theme.hue, theme.saturation, 40),
       normal: color(theme.hue, theme.saturation, 60),
       light: color(theme.hue, theme.saturation, 90),
-      dark: color(theme.hue, theme.saturation, 40)
     }
   }
 }))
@@ -54,6 +54,7 @@ themesData.forEach(theme => {
       "editorGroupHeader.tabsBackground": theme.colors.background.dark,
       "editorLink.activeForeground": theme.colors.text.normal,
       "editor.selectionBackground": theme.colors.background.light,
+      "editor.wordHighlightTextBackground": theme.colors.background.light,
       
       // editor suggestions
       "editorSuggestWidget.background": theme.colors.background.dark,
