@@ -10,6 +10,8 @@
     "editorLineNumber.activeForeground": "#EBE0EB",
     "editor.wordHighlightBackground": "#2E1F2E",
     "editor.wordHighlightStrongBackground": "#2E1F2E",
+    "editorHoverWidget.background": "#1F141F",
+    "editorHoverWidget.border": "#2E1F2E",
     "editorSuggestWidget.background": "#1F141F",
     "editorSuggestWidget.border": "#1F141F",
     "editorSuggestWidget.selectedBackground": "#2E1F2E",

@@ -58,6 +58,8 @@ themesData.forEach(theme => {
       "editorLineNumber.activeForeground": theme.colors.text.light,
       "editor.wordHighlightBackground": theme.colors.background.light,
       "editor.wordHighlightStrongBackground": theme.colors.background.light,
+      "editorHoverWidget.background": theme.colors.background.dark,
+      "editorHoverWidget.border": theme.colors.background.light,
       
       // editor suggestions
       "editorSuggestWidget.background": theme.colors.background.dark,
