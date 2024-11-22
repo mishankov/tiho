@@ -92,8 +92,11 @@ themesData.forEach(theme => {
       // common
       "scrollbar.shadow": theme.colors.background.dark,
       "list.hoverBackground": theme.colors.background.light,
+      "list.activeSelectionBackground": theme.colors.background.light,
+      "list.inactiveSelectionBackground": theme.colors.background.light,
       "dropdown.background": theme.colors.background.dark,
       "selection.background": theme.colors.background.light,
+      "focusBorder": theme.colors.background.dark,
 
       // terminal
       "terminal.selectionBackground": theme.colors.background.light,

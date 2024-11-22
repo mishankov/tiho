@@ -32,8 +32,11 @@
     "quickInputList.focusBackground": "#1F2E24",
     "scrollbar.shadow": "#141F18",
     "list.hoverBackground": "#1F2E24",
+    "list.activeSelectionBackground": "#1F2E24",
+    "list.inactiveSelectionBackground": "#1F2E24",
     "dropdown.background": "#141F18",
     "selection.background": "#1F2E24",
+    "focusBorder": "#141F18",
     "terminal.selectionBackground": "#1F2E24"
   },
   "tokenColors": [
