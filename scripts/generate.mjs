@@ -65,15 +65,22 @@ themesData.forEach(theme => {
       "editorSuggestWidget.selectedForeground": theme.colors.text.normal, 
       "editorSuggestWidget.selectedIconForeground": theme.colors.text.light,
 
-      // stuff around editor
-      "activityBar.background": theme.colors.background.dark, // tabs on side
+      // primarty side bar
+      "activityBar.background": theme.colors.background.dark,
+      "activityBar.foreground": theme.colors.text.normal,
       "activityBarBadge.background": theme.colors.background.dark,
       "sideBar.background": theme.colors.background.dark,
+      "sideBar.foreground": theme.colors.text.normal,
       "sideBarTitle.foreground":  theme.colors.text.normal,
       "sideBarSectionHeader.background": theme.colors.background.dark,
+      
+      // bottom status bar 
+      "statusBar.background": theme.colors.background.dark,
+      "statusBar.foreground": theme.colors.text.normal,
+
+      // stuff around editor
       "tab.activeBackground": theme.colors.background.light,
       "tab.inactiveBackground": theme.colors.background.dark,
-      "statusBar.background": theme.colors.background.dark,
       "panel.background": theme.colors.background.dark,
       "menubar.selectionBackground": theme.colors.background.dark,
       "titleBar.activeBackground": theme.colors.background.dark,
