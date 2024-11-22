@@ -8,6 +8,8 @@
     "editorLink.activeForeground": "#85AD94",
     "editorLineNumber.foreground": "#85AD94",
     "editorLineNumber.activeForeground": "#E0EBE4",
+    "editor.wordHighlightBackground": "#1F2E24",
+    "editor.wordHighlightStrongBackground": "#1F2E24",
     "editorSuggestWidget.background": "#141F18",
     "editorSuggestWidget.border": "#141F18",
     "editorSuggestWidget.selectedBackground": "#1F2E24",
