@@ -107,15 +107,17 @@ themesData.forEach(theme => {
 
       // common
       "scrollbar.shadow": theme.colors.background.dark,
-      "list.hoverBackground": theme.colors.background.light,
-      "list.activeSelectionBackground": theme.colors.background.light,
-      "list.inactiveSelectionBackground": theme.colors.background.light,
-      "list.highlightForeground": theme.colors.text.light,
       "dropdown.background": theme.colors.background.dark,
       "selection.background": theme.colors.background.light,
       "focusBorder": theme.colors.background.dark,
       "foreground": theme.colors.text.normal,
       "icon.foreground": theme.colors.text.light,
+      
+      // list
+      "list.hoverBackground": theme.colors.background.light,
+      "list.activeSelectionBackground": theme.colors.background.light,
+      "list.inactiveSelectionBackground": theme.colors.background.light,
+      "list.highlightForeground": theme.colors.text.light,
 
       // input
       "input.background": theme.colors.background.light,
