@@ -54,6 +54,8 @@ themesData.forEach(theme => {
       "editor.selectionBackground": theme.colors.background.light,
       "editorGroupHeader.tabsBackground": theme.colors.background.dark,
       "editorLink.activeForeground": theme.colors.text.normal,
+      "editorLineNumber.foreground": theme.colors.text.normal,
+      "editorLineNumber.activeForeground": theme.colors.text.light,
       
       // editor suggestions
       "editorSuggestWidget.background": theme.colors.background.dark,

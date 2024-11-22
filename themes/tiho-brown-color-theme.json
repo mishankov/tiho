@@ -6,6 +6,8 @@
     "editor.selectionBackground": "#2E261F",
     "editorGroupHeader.tabsBackground": "#1F1A14",
     "editorLink.activeForeground": "#AD9985",
+    "editorLineNumber.foreground": "#AD9985",
+    "editorLineNumber.activeForeground": "#EBE6E0",
     "editorSuggestWidget.background": "#1F1A14",
     "editorSuggestWidget.border": "#1F1A14",
     "editorSuggestWidget.selectedBackground": "#2E261F",
