@@ -93,6 +93,11 @@ themesData.forEach(theme => {
       // terminal
       "terminal.selectionBackground": theme.colors.background.light,
 
+      // notifications
+      "notifications.background": theme.colors.background.dark,
+      "notifications.border": theme.colors.background.dark,
+      "notifications.foreground": theme.colors.text.normal,
+
       // common
       "scrollbar.shadow": theme.colors.background.dark,
       "list.hoverBackground": theme.colors.background.light,
@@ -107,7 +112,6 @@ themesData.forEach(theme => {
       "input.background": theme.colors.background.light,
       "input.foreground": theme.colors.text.normal,
       "input.border": theme.colors.background.dark,
-
     },
     "tokenColors": [
       {
