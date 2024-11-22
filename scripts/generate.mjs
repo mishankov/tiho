@@ -51,10 +51,9 @@ themesData.forEach(theme => {
       // editor
       "editor.background": theme.colors.background.dark,
       "editor.foreground": theme.colors.text.normal,
+      "editor.selectionBackground": theme.colors.background.light,
       "editorGroupHeader.tabsBackground": theme.colors.background.dark,
       "editorLink.activeForeground": theme.colors.text.normal,
-      "editor.selectionBackground": theme.colors.background.light,
-      "editor.wordHighlightTextBackground": theme.colors.background.light,
       
       // editor suggestions
       "editorSuggestWidget.background": theme.colors.background.dark,
@@ -87,7 +86,12 @@ themesData.forEach(theme => {
       
       // quick input
       "quickInput.background": theme.colors.background.dark,
+      "quickInput.foreground": theme.colors.text.normal,
       "quickInputList.focusBackground": theme.colors.background.light,
+      "quickInputList.focusForeground": theme.colors.text.normal,
+      
+      // terminal
+      "terminal.selectionBackground": theme.colors.background.light,
 
       // common
       "scrollbar.shadow": theme.colors.background.dark,
@@ -98,8 +102,11 @@ themesData.forEach(theme => {
       "selection.background": theme.colors.background.light,
       "focusBorder": theme.colors.background.dark,
 
-      // terminal
-      "terminal.selectionBackground": theme.colors.background.light,
+      // input
+      "input.background": theme.colors.background.light,
+      "input.foreground": theme.colors.text.normal,
+      "input.border": theme.colors.background.dark,
+
     },
     "tokenColors": [
       {

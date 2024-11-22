@@ -3,10 +3,9 @@
   "colors": {
     "editor.background": "#1F1A14",
     "editor.foreground": "#AD9985",
+    "editor.selectionBackground": "#2E261F",
     "editorGroupHeader.tabsBackground": "#1F1A14",
     "editorLink.activeForeground": "#AD9985",
-    "editor.selectionBackground": "#2E261F",
-    "editor.wordHighlightTextBackground": "#2E261F",
     "editorSuggestWidget.background": "#1F1A14",
     "editorSuggestWidget.border": "#1F1A14",
     "editorSuggestWidget.selectedBackground": "#2E261F",
@@ -29,7 +28,10 @@
     "menubar.selectionBackground": "#1F1A14",
     "titleBar.activeBackground": "#1F1A14",
     "quickInput.background": "#1F1A14",
+    "quickInput.foreground": "#AD9985",
     "quickInputList.focusBackground": "#2E261F",
+    "quickInputList.focusForeground": "#AD9985",
+    "terminal.selectionBackground": "#2E261F",
     "scrollbar.shadow": "#1F1A14",
     "list.hoverBackground": "#2E261F",
     "list.activeSelectionBackground": "#2E261F",
@@ -37,7 +39,9 @@
     "dropdown.background": "#1F1A14",
     "selection.background": "#2E261F",
     "focusBorder": "#1F1A14",
-    "terminal.selectionBackground": "#2E261F"
+    "input.background": "#2E261F",
+    "input.foreground": "#AD9985",
+    "input.border": "#1F1A14"
   },
   "tokenColors": [
     {

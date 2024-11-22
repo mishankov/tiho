@@ -3,10 +3,9 @@
   "colors": {
     "editor.background": "#141F18",
     "editor.foreground": "#85AD94",
+    "editor.selectionBackground": "#1F2E24",
     "editorGroupHeader.tabsBackground": "#141F18",
     "editorLink.activeForeground": "#85AD94",
-    "editor.selectionBackground": "#1F2E24",
-    "editor.wordHighlightTextBackground": "#1F2E24",
     "editorSuggestWidget.background": "#141F18",
     "editorSuggestWidget.border": "#141F18",
     "editorSuggestWidget.selectedBackground": "#1F2E24",
@@ -29,7 +28,10 @@
     "menubar.selectionBackground": "#141F18",
     "titleBar.activeBackground": "#141F18",
     "quickInput.background": "#141F18",
+    "quickInput.foreground": "#85AD94",
     "quickInputList.focusBackground": "#1F2E24",
+    "quickInputList.focusForeground": "#85AD94",
+    "terminal.selectionBackground": "#1F2E24",
     "scrollbar.shadow": "#141F18",
     "list.hoverBackground": "#1F2E24",
     "list.activeSelectionBackground": "#1F2E24",
@@ -37,7 +39,9 @@
     "dropdown.background": "#141F18",
     "selection.background": "#1F2E24",
     "focusBorder": "#141F18",
-    "terminal.selectionBackground": "#1F2E24"
+    "input.background": "#1F2E24",
+    "input.foreground": "#85AD94",
+    "input.border": "#141F18"
   },
   "tokenColors": [
     {
