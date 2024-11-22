@@ -45,7 +45,7 @@
     "selection.background": "#2E261F",
     "focusBorder": "#1F1A14",
     "foreground": "#AD9985",
-    "icon.foreground": "#EBE6E0",
+    "icon.foreground": "#AD9985",
     "list.hoverBackground": "#2E261F",
     "list.activeSelectionBackground": "#2E261F",
     "list.inactiveSelectionBackground": "#2E261F",

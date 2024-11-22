@@ -111,7 +111,7 @@ themesData.forEach(theme => {
       "selection.background": theme.colors.background.light,
       "focusBorder": theme.colors.background.dark,
       "foreground": theme.colors.text.normal,
-      "icon.foreground": theme.colors.text.light,
+      "icon.foreground": theme.colors.text.normal,
       
       // list
       "list.hoverBackground": theme.colors.background.light,
