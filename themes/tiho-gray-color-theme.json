@@ -36,6 +36,7 @@
     "list.hoverBackground": "#262626",
     "list.activeSelectionBackground": "#262626",
     "list.inactiveSelectionBackground": "#262626",
+    "list.highlightForeground": "#E6E6E6",
     "dropdown.background": "#1A1A1A",
     "selection.background": "#262626",
     "focusBorder": "#1A1A1A",
