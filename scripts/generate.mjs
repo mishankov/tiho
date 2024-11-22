@@ -77,10 +77,17 @@ themesData.forEach(theme => {
       "statusBar.background": theme.colors.background.dark,
       "statusBar.foreground": theme.colors.text.normal,
 
-      // stuff around editor
+      // tabs
       "tab.activeBackground": theme.colors.background.light,
       "tab.inactiveBackground": theme.colors.background.dark,
+      "tab.hoverForeground": "#85A0AD",
+      "tab.activeForeground": "#85A0AD",
+      "tab.unfocusedHoverForeground": "#85A0AD",
+      "tab.unfocusedActiveForeground": "#85A0AD",
+
+      // stuff around editor
       "panel.background": theme.colors.background.dark,
+      "panelTitle.activeForeground": theme.colors.text.normal,
       "menubar.selectionBackground": theme.colors.background.dark,
       "titleBar.activeBackground": theme.colors.background.dark,
       
@@ -107,6 +114,8 @@ themesData.forEach(theme => {
       "dropdown.background": theme.colors.background.dark,
       "selection.background": theme.colors.background.light,
       "focusBorder": theme.colors.background.dark,
+      "foreground": theme.colors.text.normal,
+      "icon.foreground": theme.colors.text.light,
 
       // input
       "input.background": theme.colors.background.light,
