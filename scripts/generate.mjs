@@ -13,24 +13,24 @@ const color = (hue, saturation, lightness) => `#${convert.hsl.hex(hue, saturatio
 
 
 const GRAY_HUE = 0
-const GREEN_HUE = 143
-const BLUE_HUE = 200
-const PURPLE_HUE = 300
-const BROWN_HUE = 30
+const GREEN_HUE = 151
+const BLUE_HUE = 216
+const PURPLE_HUE = 276
+const BROWN_HUE = 345
 
 const SATURATION = 20
 
 const themes = [
   { color: 'gray', hue: GRAY_HUE, saturation: 0 },
-  { color: 'green', hue: GREEN_HUE, saturation: SATURATION },
-  { color: 'blue', hue: BLUE_HUE, saturation: SATURATION },
-  { color: 'purple', hue: PURPLE_HUE, saturation: SATURATION },
-  { color: 'brown', hue: BROWN_HUE, saturation: SATURATION },
+  { color: 'phthalo green', hue: GREEN_HUE, saturation: SATURATION },
+  { color: 'sapphire blue', hue: BLUE_HUE, saturation: SATURATION },
+  { color: 'mauve', hue: PURPLE_HUE, saturation: SATURATION },
+  { color: 'burgundy', hue: BROWN_HUE, saturation: SATURATION },
 ]
 
 const themesData = themes.map(theme => ({
   name: `tiho ${theme.color}`,
-  fileName: `tiho-${theme.color}-color-theme.json`,
+  fileName: `tiho-${theme.color.replaceAll(' ', '-')}-color-theme.json`,
   colors: {
     background: {
       dark: color(theme.hue, theme.saturation, 10),

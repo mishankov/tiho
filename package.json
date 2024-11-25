@@ -17,24 +17,24 @@
         "path": "./themes/tiho-gray-color-theme.json"
       }, 
       {
-        "label": "tiho green",
+        "label": "tiho phthalo green",
         "uiTheme": "vs-dark",
-        "path": "./themes/tiho-green-color-theme.json"
+        "path": "./themes/tiho-phthalo-green-color-theme.json"
       }, 
       {
-        "label": "tiho blue",
+        "label": "tiho sapphire blue",
         "uiTheme": "vs-dark",
-        "path": "./themes/tiho-blue-color-theme.json"
+        "path": "./themes/tiho-sapphire-blue-color-theme.json"
       }, 
       {
-        "label": "tiho purple",
+        "label": "tiho mauve",
         "uiTheme": "vs-dark",
-        "path": "./themes/tiho-purple-color-theme.json"
+        "path": "./themes/tiho-mauve-color-theme.json"
       }, 
       {
-        "label": "tiho brown",
+        "label": "tiho burgundy",
         "uiTheme": "vs-dark",
-        "path": "./themes/tiho-brown-color-theme.json"
+        "path": "./themes/tiho-burgundy-color-theme.json"
       }
     ]
   },

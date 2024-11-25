@@ -1,0 +1,85 @@
+{
+  "name": "tiho burgundy",
+  "colors": {
+    "editor.background": "#1F1417",
+    "editor.foreground": "#AD858F",
+    "editor.selectionBackground": "#2E1F22",
+    "editorGroupHeader.tabsBackground": "#1F1417",
+    "editorLink.activeForeground": "#AD858F",
+    "editorLineNumber.foreground": "#AD858F",
+    "editorLineNumber.activeForeground": "#EBE0E3",
+    "editor.wordHighlightBackground": "#2E1F22",
+    "editor.wordHighlightStrongBackground": "#2E1F22",
+    "editorHoverWidget.background": "#1F1417",
+    "editorHoverWidget.border": "#2E1F22",
+    "editorSuggestWidget.background": "#1F1417",
+    "editorSuggestWidget.border": "#1F1417",
+    "editorSuggestWidget.selectedBackground": "#2E1F22",
+    "editorSuggestWidget.highlightForeground": "#EBE0E3",
+    "editorSuggestWidget.focusHighlightForeground": "#EBE0E3",
+    "editorSuggestWidget.selectedForeground": "#AD858F",
+    "editorSuggestWidget.selectedIconForeground": "#EBE0E3",
+    "activityBar.background": "#1F1417",
+    "activityBar.foreground": "#AD858F",
+    "activityBarBadge.background": "#1F1417",
+    "sideBar.background": "#1F1417",
+    "sideBar.foreground": "#AD858F",
+    "sideBarTitle.foreground": "#AD858F",
+    "sideBarSectionHeader.background": "#1F1417",
+    "statusBar.background": "#1F1417",
+    "statusBar.foreground": "#AD858F",
+    "tab.activeBackground": "#2E1F22",
+    "tab.inactiveBackground": "#1F1417",
+    "tab.hoverForeground": "#85A0AD",
+    "tab.activeForeground": "#85A0AD",
+    "tab.unfocusedHoverForeground": "#85A0AD",
+    "tab.unfocusedActiveForeground": "#85A0AD",
+    "panel.background": "#1F1417",
+    "panelTitle.activeForeground": "#AD858F",
+    "menubar.selectionBackground": "#1F1417",
+    "titleBar.activeBackground": "#1F1417",
+    "quickInput.background": "#1F1417",
+    "quickInput.foreground": "#AD858F",
+    "quickInputList.focusBackground": "#2E1F22",
+    "quickInputList.focusForeground": "#AD858F",
+    "terminal.selectionBackground": "#2E1F22",
+    "notifications.background": "#1F1417",
+    "notifications.border": "#1F1417",
+    "notifications.foreground": "#AD858F",
+    "scrollbar.shadow": "#1F1417",
+    "dropdown.background": "#1F1417",
+    "selection.background": "#2E1F22",
+    "focusBorder": "#1F1417",
+    "foreground": "#AD858F",
+    "icon.foreground": "#AD858F",
+    "list.hoverBackground": "#2E1F22",
+    "list.activeSelectionBackground": "#2E1F22",
+    "list.inactiveSelectionBackground": "#2E1F22",
+    "list.highlightForeground": "#EBE0E3",
+    "input.background": "#2E1F22",
+    "input.foreground": "#AD858F",
+    "input.border": "#1F1417"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#7A525C"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#EBE0E3"
+      }
+    }
+  ]
+}
